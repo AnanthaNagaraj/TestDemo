@@ -1,0 +1,8 @@
+00:05:20.931 [main] ERROR com.test5.Demo5 - 2222 Present not presrnt
+00:05:20.934 [main] ERROR com.test5.Demo5 - ----Present not presrnt
+00:05:20.934 [main] ERROR com.test5.Demo5 - 1111 Present not presrnt
+00:05:49.722 [main] DEBUG com.test4.logging.Demo1 - I am debugging
+00:05:49.724 [main] INFO  com.test4.logging.Demo1 - Present
+00:05:49.724 [main] ERROR com.test4.logging.Demo1 - Present not presrnt
+00:05:49.724 [main] FATAL com.test4.logging.Demo1 - this is fatal
+00:09:07.109 [main] DEBUG com.test4.logging.Demo1 - I am debugging

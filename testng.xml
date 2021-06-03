@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+	<test name="PersonalLoan">
+		<classes>
+			<class name="com.test.Sample2">
+				<!-- <methods>
+					<include name="test3" />
+				</methods> -->
+			</class>
+
+			<class name="com.test.Sample">
+				<!-- <methods>
+					<exclude name=".*" />
+				</methods> -->
+			</class>
+			
+			<class name="com.test.Sample4" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CarLoan">
+		<classes>
+			<class name="com.test.Sample3">
+				<methods>
+					<include name="MobilLogin.*" />
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->

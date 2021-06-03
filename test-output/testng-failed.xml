@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="URL" value="Google.com"/>
+  <listeners>
+    <listener class-name="com.test.Listeners"/>
+  </listeners>
+  <test thread-count="2" name="VoiceRegression(failed)" parallel="tests">
+    <parameter name="URL" value="VoiceRegression.com"/>
+    <classes>
+      <class name="com.test.SampleDataProvider9">
+        <methods>
+          <include name="test"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.test.SampleDataProvider9 -->
+    </classes>
+  </test> <!-- VoiceRegression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

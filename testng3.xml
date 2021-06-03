@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<parameter name="URL" value="Google.com" />
+	<test name="Regression">
+		<!-- <groups> <run> <exclude name="smoke1" /> </run> </groups> -->
+
+		<classes>
+			<class name="com.test.Sample6" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+	<test name="PersonalLoan">
+		<packages>
+		<package name="com.test"/>
+		<package name="com.test2"/>
+		
+		</packages>
+	</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->

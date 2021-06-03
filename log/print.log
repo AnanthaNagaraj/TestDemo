@@ -1,0 +1,2 @@
+00:03:46.788 [main] ERROR com.test4.logging.Demo1 - Present not presrnt
+00:03:46.840 [main] FATAL com.test4.logging.Demo1 - this is fatal

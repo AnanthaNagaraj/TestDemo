@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+	
+	<listeners>
+		<listener class-name="com.test.Listeners"/>
+	</listeners>
+	
+	<parameter name="URL" value="Google.com" />
+
+	<test name="Regression">
+		<classes>
+			<class name="com.test.Sample5" />
+		</classes>
+
+	</test> <!-- Test -->
+
+
+	<test name="SMSRegression">
+	<parameter name="URL" value="SMSRegression.com" />
+		<classes>
+			<class name="com.test.Sample6" />
+			<class name="com.test.Sample7" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="VoiceRegression">
+	<parameter name="URL" value="VoiceRegression.com" />
+		<classes>
+			<class name="com.test.Sample8" />
+			<class name="com.test.SampleDataProvider9" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
