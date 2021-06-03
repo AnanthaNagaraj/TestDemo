@@ -9,6 +9,8 @@ public class Base {
 	@BeforeMethod
 	public void test(String url)
 	{
+		System.out.println("Launching URL from browser");
 		System.out.println("Launching URL --->" +url);
+		
 	}
 }
