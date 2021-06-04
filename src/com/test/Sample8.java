@@ -11,6 +11,8 @@ public class Sample8 extends Base{
 	{
 		
 		System.out.println("Sample 8 ---------> Test 1");
+		System.out.println("Sample 8 ----GIT-----> Test 1");
+		System.out.println("Sample 8 ----GIT2-----> Test 1");
 	}
 	
 	//@Parameters({"URL"})
@@ -19,5 +21,7 @@ public class Sample8 extends Base{
 	{
 		
 		System.out.println("Sample 8 ---------> Test 2");
+		System.out.println("Sample 8 ----GIT-----> Test 2");
+		System.out.println("Sample 8 ----GIT-----> Test 2");
 	}
 }
